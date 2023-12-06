@@ -25,17 +25,12 @@ a{
     color: black;
    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    transition: all 0.3s ease-in-out;
     border-radius: 20px;
     margin: 0 17px;
 
 }
 .menu ul li a:hover{
-    display: inline-block!important;
-    position: relative;
     background-color: rgb(127, 122, 122);
-    transition: all 0.3s ease-in-out;
-    transform: scale(1.1);
     border-radius: 20px;
     padding: 5px;
     color: aliceblue;
@@ -213,6 +208,7 @@ margin-top: 30px;
         width: 93%!important;
         margin-bottom: 30px;
     }
+    
     }
 @media (max-width:992px){
     .box{
